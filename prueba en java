@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+
+public class holamundo {
+	
+	public static void main(String argumentos[])throws InterruptedException{ 
+
+		double A;
+		
+		double B;
+		
+		int opcion;
+	do{
+		
+		
+		System.out.println("******_MENU_******");
+		System.out.println("1.Suma");
+		System.out.println("2.Multiplicacion");
+		System.out.println("3.Resta");
+		System.out.println("4.Division");
+		System.out.println("5.Salir");
+		System.out.println("Introduzca la funcion que desea realizar:");
+		
+		Scanner op=new Scanner(System.in);
+		
+		opcion=op.nextInt();
+		
+		if(opcion<=4){
+		
+		System.out.println("Introduzca el  valor de A:");
+			 
+		Scanner sc=new Scanner(System.in);
+			
+		A=sc.nextDouble();
+		
+		System.out.println("Introduzca el  valor de B:");
+		
+		Scanner sc1=new Scanner(System.in);
+		
+		B=sc1.nextDouble();
+		 
+	
+
+	
+	if(opcion==1){
+      System.out.println("El valor de la suma de A+B es:"); 
+      System.out.println(A+B);
+	}
+	else if(opcion==2){
+      System.out.println("El valor de la multiplicacion de A*B es:");
+      System.out.println(A*B);
+	}
+	else if(opcion==3){
+	      System.out.println("El valor de la resta de A-B es:");
+	      System.out.println(A-B);
+		}
+	else if(opcion==4){
+      System.out.println("El valor de la division A/B es:");
+      System.out.println(A/B);
+	}
+		}
+		
+		
+	else{
+		
+		System.out.println("Saliendo de la aplicacion...");
+		Thread.sleep(2000);
+	
+	}
+     
+			
+		
+		
+	}while(opcion!=5);
+	}
+
+}
+
