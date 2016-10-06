@@ -1,0 +1,94 @@
+import java.util.Scanner;
+
+public class TresUsuarios {
+	
+	public static void main(String argumentos[]){
+		
+				
+		System.out.println("***Usuario 1***");
+		System.out.print("Nombre:");
+		String nombre="";
+		Scanner nom=new Scanner(System.in);
+		nombre=nom.nextLine();
+		
+		System.out.print("Apellidos:");
+		String apellidos="";
+		Scanner ap=new Scanner(System.in);
+		apellidos=ap.nextLine();
+		
+		System.out.print("nif:");
+		Scanner nif=new Scanner(System.in);
+		int nif1=nif.nextInt();
+		
+		System.out.print("Codigo Postal:");
+		Scanner cod=new Scanner(System.in);
+		int codigo= cod.nextInt();
+		System.out.println("");
+		
+		System.out.println("***Usuario 2***");
+		System.out.print("Nombre:");
+		String nombre1="";
+		Scanner nom1=new Scanner(System.in);
+		nombre1=nom1.nextLine();
+		
+		System.out.print("Apellidos:");
+		String apellidos1="";
+		Scanner ap1=new Scanner(System.in);
+		apellidos1=ap1.nextLine();
+		
+		System.out.print("nif:");
+		Scanner nif3=new Scanner(System.in);
+		int nif2=nif3.nextInt();
+		
+		System.out.print("Codigo Postal:");
+		Scanner cod1=new Scanner(System.in);
+		int codigo1= cod1.nextInt();
+		System.out.println("");
+		
+		System.out.println("***Usuario 3***");
+		System.out.print("Nombre:");
+		String nombre2="";
+		Scanner nom2=new Scanner(System.in);
+		nombre2=nom2.nextLine();
+		
+		System.out.print("Apellidos:");
+		String apellidos2="";
+		Scanner ap2=new Scanner(System.in);
+		apellidos2=ap2.nextLine();
+		
+		System.out.print("nif:");
+		Scanner nif5=new Scanner(System.in);
+		int nif4=nif5.nextInt();
+		
+		System.out.print("Codigo Postal:");
+		Scanner cod2=new Scanner(System.in);
+		int codigo2= cod2.nextInt();
+		System.out.println("");
+		
+		System.out.println("***Usuario 3***");
+		System.out.println("Nombre:"+nombre2);
+		System.out.println("Apellidos:"+apellidos2);
+		System.out.println("NIF:"+nif4);
+		System.out.println("Codigo Postal:"+codigo2);
+		System.out.println("");
+		
+		
+		System.out.println("***Usuario 2***");
+		System.out.println("Nombre:"+nombre1);
+		System.out.println("Apellidos:"+apellidos1);
+		System.out.println("NIF:"+nif2);
+		System.out.println("Codigo Postal:"+codigo2);
+		System.out.println("");
+		
+		
+		System.out.println("***Usuario 1***");
+		System.out.println("Nombre:"+nombre);
+		System.out.println("Apellidos:"+apellidos);
+		System.out.println("NIF:"+nif1);
+		System.out.println("Codigo Postal:"+codigo);
+		System.out.println("");
+			
+		
+	}
+
+}
