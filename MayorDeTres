@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class MayorDeTres {
+	
+	public static void main(String argumento[]){
+		
+		int a,b,c;
+		
+		System.out.print("Introduca el valor de a:");
+		Scanner num=new Scanner(System.in);
+		a=num.nextInt();
+		
+		System.out.print("Introduca el valor de b:");
+		Scanner num1=new Scanner(System.in);
+		b=num1.nextInt();
+		
+		System.out.print("Introduca el valor de c:");
+		Scanner num2=new Scanner(System.in);
+		c=num2.nextInt();
+		
+		if(a>=b&&a>=c){
+			
+			System.out.println("El valor mayor es a:"+a);
+					
+		}
+		else if(a>=b&&a<=c){
+			
+			System.out.println("El mayor valor es c:"+c);
+		}
+		else if(a<=b&&a<=c){
+			
+			System.out.println("El mayor valor es c:"+c);
+		}
+				
+		else{
+			
+			System.out.println("El mayor valor es b:"+b);
+			
+		}
+		}		
+	}
