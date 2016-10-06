@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class ParONo {
+	
+	public static void main(String argumento[]){
+		
+		
+		System.out.println("¿Par o No?");
+
+		
+		System.out.print("Introduze un numero:");
+		Scanner num=new Scanner(System.in);
+		int numero=num.nextInt();
+		
+		if(numero%2==0){
+			
+			System.out.println("El numero es par");
+		}
+		
+		else{
+			
+			
+			System.out.println("El numero es impar");
+		}
+			
+}
+}
