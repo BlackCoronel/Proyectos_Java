@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+public class Nombre1 {
+	
+	
+	public static void main(String Argumentos[]){
+	
+	//Introducimos el nombre 1
+	System.out.println("Introduzca el nombre 1:");
+	String nombre1=""; 			  //inicializamos un string
+	Scanner nom1=new Scanner(System.in); //inicicalizamos el scanner
+	nom1.nextLine();					//Lo que escribamos por pantalla se guardara en nom1
+	
+	System.out.println("Introduzca el nombre 2:");
+	String nombre2="";
+	Scanner nom2=new Scanner(System.in);
+	nom2.nextLine();
+	
+	
+	}
+	
+
+}
