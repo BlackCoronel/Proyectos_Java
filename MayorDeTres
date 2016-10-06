@@ -20,21 +20,21 @@ public class MayorDeTres {
 		
 		if(a>=b&&a>=c){
 			
-			System.out.println("El valor mayor es a:"+a);
+			System.out.println("El valor mayor es a="+a);
 					
 		}
 		else if(a>=b&&a<=c){
 			
-			System.out.println("El mayor valor es c:"+c);
+			System.out.println("El mayor valor es c="+c);
 		}
 		else if(a<=b&&a<=c){
 			
-			System.out.println("El mayor valor es c:"+c);
+			System.out.println("El mayor valor es c="+c);
 		}
 				
 		else{
 			
-			System.out.println("El mayor valor es b:"+b);
+			System.out.println("El mayor valor es b="+b);
 			
 		}
 		}		
