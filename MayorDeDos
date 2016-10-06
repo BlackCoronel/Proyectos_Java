@@ -1,0 +1,38 @@
+import java.util.Scanner; //libreria necesaria para escanear valores por pantalla
+
+
+public class MayordeDos {
+	
+	
+	public static void main(String argumento[]){
+		
+		
+		
+		System.out.println("¿Cual de los dos numeros es mayor?");
+		System.out.println("");//introduce un salto de linea(simple estetica)
+		
+		System.out.print("Introduzca el numero 1:");
+		Scanner var1=new Scanner(System.in);
+		int a=var1.nextInt();
+		
+		System.out.print("Introduzca el numero 2:");
+		Scanner var2=new Scanner(System.in);
+		int b=var2.nextInt();
+			
+		if(a>b){
+			//introduce un salto de linea(simple estetica)
+		System.out.println("");//introduce un salto de linea(simple estetica)	
+		System.out.println("El mayor numero es el numero1 :"+a);
+		
+		}
+		else{
+			
+			System.out.println("");//introduce un salto de linea(simple estetica)
+			System.out.println("El mayor numero es el numero2 :"+b);
+		}
+				
+		
+		
+	}
+
+}
